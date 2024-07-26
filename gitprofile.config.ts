@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['agugoat/AIDJ-testings', 'agugoat/AguNotes'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -57,26 +57,8 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/princeobiuto-aguguo/',
+    email: 'paguguo8@gmail.com',
   },
   resume: {
     fileUrl:
@@ -87,20 +69,19 @@ const CONFIG = {
     'Python',
     'JavaScript',
     'React.js',
-    'Node.js',
     'Nest.js',
     'MySQL',
-    'PostgreSQL',
+    'HTML',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'Tableau',
+    'SQL',
     'CSS',
-    'Antd',
+    'Power Bi',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'IBM Acclterate',
+      company: 'IBM Accelerate',
       position: 'Client Engineering & Technical Consulting',
       from: 'April 2024',
       to: 'July 2024',
@@ -108,52 +89,32 @@ const CONFIG = {
     },
     {
       company: 'Headstarter',
-      position: 'Software Engingering ',
+      position: 'Software Engineering Fellow',
       from: 'July 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://headstarter.co/',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  
+  certifications: [],
+  
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Univeristy of Maryland - College Park',
+      degree: 'Computer Science',
+      from: '2022',
+      to: '2026',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Empowering Diversity in Tech—Code:BLACKs Mission at UMD',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: 'Samuel Malede Zewdu',
+      link: 'https://www.cs.umd.edu/article/2024/03/empowering-diversity-tech-code-blacks-mission-umd',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'A student organizations quest to bridge the tech gap for people of color.'
     },
   ],
   // Display articles from your medium or dev account. (Optional)
