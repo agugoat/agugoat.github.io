@@ -30,6 +30,8 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import PublicationCardCustom from './pubcopy/index';  // could come back n fix
+
 
 /**
  * Renders the GitProfile component.
@@ -256,12 +258,6 @@ const GitProfile = ({ config }: { config: Config }) => {
                         googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
-                    {sanitizedConfig.publications.length !== 0 && (
-                      <PublicationCard
-                        loading={loading}
-                        publications={sanitizedConfig.publications}
-                      />
-                    )}
                     {sanitizedConfig.projects.external.projects.length !==
                       0 && (
                       <ExternalProjectCard
@@ -271,6 +267,18 @@ const GitProfile = ({ config }: { config: Config }) => {
                           sanitizedConfig.projects.external.projects
                         }
                         googleAnalyticId={sanitizedConfig.googleAnalytics.id}
+                      />
+                    )}
+                     {sanitizedConfig.publications.length !== 0 && (
+                      <PublicationCardCustom
+                        loading={loading}
+                        custDubs={sanitizedConfig.customPubs}
+                      />
+                    )}
+                    {sanitizedConfig.publications.length !== 0 && (
+                      <PublicationCard
+                        loading={loading}
+                        publications={sanitizedConfig.publications}
                       />
                     )}
                     {sanitizedConfig.blog.display && (

@@ -35,10 +35,10 @@ const CONFIG = {
         {
           title: 'Take Note',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          'Web application using Assembly AI for transcribing lecture audio recordings, benefiting students with learning disabilities.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/terrencechungong/MorganHacks',
         },
         {
           title: 'Project Name',
@@ -62,7 +62,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/18CNPGU0qlfcBC6xKWoJnWIR4bmQFIUqy/edit', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -117,10 +117,39 @@ const CONFIG = {
         'A student organizations quest to bridge the tech gap for people of color.'
     },
   ],
+  customPubs: [
+    {
+      title: 'IBM Accelerate - Client Engineering and Technical Sales Certificate',
+      conferenceName: '',
+      journalName: '',
+      authors: 'IBM',
+      link: 'https://drive.google.com/file/d/1Rw489M7vWzQqTurClsAOuv93nUj2Je9y/view?usp=sharing',
+      description:
+        'Worked with 3 other accelerate partictipants to devlop an AI solutuion to meet busniess needs.'
+    },
+    {
+      title: 'SciTech2U Comparative & Communication Strategy Externship Certificate',
+      conferenceName: '',
+      journalName: '',
+      authors: '',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    },
+    {
+      title: 'Mobalytics Gaming Market Research & Analytics Externship Certificate',
+      conferenceName: '',
+      journalName: '',
+      authors: 'Extern',
+      link: 'https://drive.google.com/file/d/1n6FUC8RijqIvDzR3nF9g7kN_2Vmuq4g-/view?usp=sharing',
+      description:
+        'Conducted Market Research on NBA2K and Final Fantasy 7 Remake',
+    },
+  ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -132,11 +161,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'lemonade',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme

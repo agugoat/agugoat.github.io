@@ -245,6 +245,15 @@ interface Publication {
   link?: string;
   description?: string;
 }
+interface CustomPublication {
+  title: string;
+  conferenceName?: string;
+  journalName?: string;
+  authors?: string;
+  link?: string;
+  description?: string;
+}
+
 
 interface GoogleAnalytics {
   /**
@@ -403,6 +412,7 @@ interface Config {
    * Publication list
    */
   publications?: Array<Publication>;
+  customPubs?: Array<CustomPublication>; // Make sure this is correctly named
 
   /**
    * Resume
