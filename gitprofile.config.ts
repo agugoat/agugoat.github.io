@@ -37,16 +37,16 @@ const CONFIG = {
           description:
           'Web application using Assembly AI for transcribing lecture audio recordings, benefiting students with learning disabilities.',
           imageUrl:
-          'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          'https://img.freepik.com/free-vector/image-upload-concept-illustration_23-2148281796.jpg?w=740&t=st=1722826653~exp=1722827253~hmac=e05d485964d428eb9fc13b853e9cba6c18bcc745f33af3373a477e0ebccfb3bc',
           link: 'https://github.com/terrencechungong/MorganHacks',
         },
         {
-          title: 'Project Name',
+          title: 'Inventory Managment',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This is a pantry/inventory management application using Next.js, TailwindCSS and Firebase. Also uses OpenAI to make recipe suggestions of the items you have in your pantry.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://img.freepik.com/premium-photo/two-women-organizing-boxes-with-checklists-warehouse-setting_1080455-3514.jpg?w=1380',
+          link: 'inventory-theta-nine.vercel.app',
         },
       ],
     },
