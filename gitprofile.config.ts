@@ -94,6 +94,13 @@ const CONFIG = {
       to: 'Present',
       companyLink: 'https://headstarter.co/',
     },
+    {
+      company: 'Amazon',
+      position: 'Amazon Next Scholar',
+      from: 'June 2024',
+      to: 'Present',
+      companyLink: 'https://info.codepath.org/amazon',
+    },
   ],
   
   certifications: [],
@@ -132,9 +139,9 @@ const CONFIG = {
       conferenceName: '',
       journalName: '',
       authors: '',
-      link: 'https://example.com',
+      link: 'https://www.scitech2u.org/our-mission',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        '•	Conducted a comprehensive competitive analysis of similar STEAM programs, evaluating prices, offerings, and delivery methods, providing strategic insights that positioned SciTech2U’s new program to capture 15% more market share.',
     },
     {
       title: 'Mobalytics Gaming Market Research & Analytics Externship Certificate',
