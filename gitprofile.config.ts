@@ -46,7 +46,7 @@ const CONFIG = {
             'This is a pantry/inventory management application using Next.js, TailwindCSS and Firebase. Also uses OpenAI to make recipe suggestions of the items you have in your pantry.',
           imageUrl:
             'https://img.freepik.com/premium-photo/two-women-organizing-boxes-with-checklists-warehouse-setting_1080455-3514.jpg?w=1380',
-          link: 'inventory-theta-nine.vercel.app',
+          link: 'https://inventory-theta-nine.vercel.app/',
         },
       ],
     },
