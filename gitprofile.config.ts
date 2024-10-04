@@ -48,6 +48,15 @@ const CONFIG = {
             'https://img.freepik.com/premium-photo/two-women-organizing-boxes-with-checklists-warehouse-setting_1080455-3514.jpg?w=1380',
           link: 'https://inventory-theta-nine.vercel.app/',
         },
+        {
+          title: 'Assistant GPT',
+          description:
+            '‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Chat GPT Clone',
+          imageUrl:
+            'https://img.freepik.com/free-vector/cute-bot-say-users-hello-chatbot-greets-online-consultation_80328-195.jpg?t=st=1728057405~exp=1728061005~hmac=417a9f2402b33ba9938d522fd9e2f23b5d8f42656e91c5ef4b1c698ee8a9ce6c&w=996',
+          link: 'https://chatsupport-headstarter-proj-3-qcyq.vercel.app/',
+        },
+        
       ],
     },
   },
@@ -88,7 +97,7 @@ const CONFIG = {
       companyLink: 'https://www.ibm.com/blogs/jobs/career-ready-skills-with-ibm-accelerate-summer-program/',
     },
     {
-      company: 'Headstarter',
+      company: 'Headstarter AI',
       position: 'Software Engineering Fellow',
       from: 'July 2024',
       to: 'Present',
@@ -138,8 +147,8 @@ const CONFIG = {
       title: 'SciTech2U Comparative & Communication Strategy Externship Certificate',
       conferenceName: '',
       journalName: '',
-      authors: '',
-      link: 'https://www.scitech2u.org/our-mission',
+      authors: 'Extern',
+      link: 'https://drive.google.com/file/d/1mjOHeB9qiqqAY-1rAK7q08_H8jmimiY9/view?usp=sharing',
       description:
         '•	Conducted a comprehensive competitive analysis of similar STEAM programs, evaluating prices, offerings, and delivery methods, providing strategic insights that positioned SciTech2U’s new program to capture 15% more market share.',
     },
@@ -151,6 +160,15 @@ const CONFIG = {
       link: 'https://drive.google.com/file/d/1n6FUC8RijqIvDzR3nF9g7kN_2Vmuq4g-/view?usp=sharing',
       description:
         'Conducted Market Research on NBA2K and Final Fantasy 7 Remake',
+    },
+    {
+      title: 'CodePath Intro to Technical Interview Prep 101',
+      conferenceName: '',
+      journalName: '',
+      authors: 'CodePath',
+      link: 'https://drive.google.com/file/d/1GZhdhBbWK6LBl_Dt8AyD42MG212lzmDx/view?usp=sharing',
+      description:
+        'Completed a 10 week Techincal Interview Prep Course',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -172,7 +190,7 @@ const CONFIG = {
     // Testing tings man 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
