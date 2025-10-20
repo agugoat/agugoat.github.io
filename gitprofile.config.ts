@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -90,25 +90,22 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'IBM Accelerate',
-      position: 'Client Engineering & Technical Consulting',
-      from: 'April 2024',
-      to: 'July 2024',
-      companyLink: 'https://www.ibm.com/blogs/jobs/career-ready-skills-with-ibm-accelerate-summer-program/',
+      company: 'IBM',
+      position: ' Platform (Software) Engineering Intern',
+      from: 'May 2025',
+      to: 'August 2025',
     },
     {
-      company: 'Headstarter AI',
-      position: 'Software Engineering Fellow',
+      company: ' Mindgrub Technologies',
+      position: ' Software Engineering Intern',
       from: 'July 2024',
       to: 'Present',
-      companyLink: 'https://headstarter.co/',
     },
     {
-      company: 'Amazon',
-      position: 'Amazon Next Scholar',
-      from: 'June 2024',
-      to: 'Present',
-      companyLink: 'https://info.codepath.org/amazon',
+      company: ' PeaceHealthCare LLC',
+      position: 'Full Stack Developer',
+      from: 'March 2024',
+      to: 'May 2025',
     },
   ],
   
